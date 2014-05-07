@@ -1,47 +1,44 @@
-# generator-mobile [![Build Status](https://secure.travis-ci.org/LisaLisa1987/generator-mobile.png?branch=master)](https://travis-ci.org/LisaLisa1987/generator-mobile)
+generator-mobile-web-app
+========================
 
-> [Yeoman](http://yeoman.io) generator
+This is a new fancy and awesome Yeoman Generator for web apps or other apps. 
 
-
-## Getting Started
-
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
-
-```
-$ npm install -g yo
-```
-
-### Yeoman Generators
-
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
-
-To install generator-mobile from npm, run:
-
-```
-$ npm install -g generator-mobile
-```
-
-Finally, initiate the generator:
-
-```
-$ yo mobile
-```
-
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+Instead of making the same setup-stuff for your daily business, just use this generator and lean back. Use your remaining time to catch a bear or cup of coffee.
 
 
-## License
+##Whats inside?
 
-MIT
+Tons of cool stuff. You can pick libraries like jQuery, jQuery mobile, Bootstrap and so on. Just select the ones you need, or use all of them!
+
+
+##How to use?
+
+First of all, do some initial stuff and install following:
+
+1. NPM
+2. Grunt
+3. Bower
+
+Use Git (you know that, bro? Of course you do! Otherwise, you would not be here. If you dont, read a tutorial ^^) and clone the repository to your folder:
+
+`git clone git@github.com:LisaLisa1987/generator-mobile-web-app.git`
+
+Navigate to that folder with a command line tool:
+
+`cd path/to/my/cloned/directory`
+
+Type in 
+`npm link`
+
+Then, your are almost finished, create a folder wherever you want (to make that clear, on your computer ;-P ), navigate with your command line tool to that folder and type in:
+
+`yo mobile` 
+
+This opens a yeoman-dialog in your console. 
+Give your app a name and press 'enter'.
+
+After that, the funny yeoman will ask you which libraries you want to use. Navigate with arrow-keys and press space-bar to select/deselect a library.
+
+Press enter, wait a little bit and let the generator do some stuff for you.
+
+And ... here you are! Have fun with your new (web) app.
