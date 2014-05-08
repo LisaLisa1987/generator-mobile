@@ -1,3 +1,30 @@
 body {
-  background-color: #111111;
-  color: black; }
+	text-align: center;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+li {
+	padding: 0;
+	margin: 0;
+	width: 300px;
+	height: 150px;
+	background-size: contain;
+}
+
+#container {
+	height: 150px;
+	width: 300px;
+	position: relative;
+	margin: 0 auto;
+}	
+
+p {
+	padding: 2px 4px;
+}
+
+

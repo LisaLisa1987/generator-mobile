@@ -6,3 +6,21 @@ body {
   background-color: $primary-color;
   color: $font-color;
 }
+
+ul {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+li {
+	padding: 0;
+	margin: 0;
+	width: 600px;
+	height: 300px;
+}
+
+#container {
+	height: 300px;
+	width: 600px;
+}

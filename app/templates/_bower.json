@@ -4,11 +4,14 @@
   "dependencies": {
     <% if(jQuery) { %>
   		"jquery": "*",
+    <% } if (jQueryMobile) { %>
+      "jquery-mobile": "latest",
   	<% } if (angular) { %>
   		"angular": "*",
   	<% } if (bootstrap) { %>
-  		"bootstrap-sass-official": "*",
+  		"bootstrap": "*",
   	<% } if (parallax) { %>
   		"parallax": "*"
   	<% } %>
+  }
 }
