@@ -8,7 +8,15 @@ Instead of making the same setup-stuff for your daily business, just use this ge
 
 ##Whats inside?
 
-Tons of cool stuff. You can pick libraries like jQuery, jQuery mobile, Bootstrap and so on. Just select the ones you need, or use all of them!
+Tons of cool stuff. You can pick libraries like 
+
+- jQuery
+- jQuery Mobile
+- Angular
+- Parallax.js
+- Bootstrap
+
+Just select the ones you need, or use all of them!
 
 
 ##How to use?
@@ -41,4 +49,8 @@ After that, the funny yeoman will ask you which libraries you want to use. Navig
 
 Press enter, wait a little bit and let the generator do some stuff for you.
 
-And ... here you are! Have fun with your new (web) app.
+Finally, use 
+
+`bower install` 
+
+and ... here you are! Have fun with your new (web) app.
