@@ -33,12 +33,11 @@ var MobileGenerator = yeoman.generators.Base.extend({
           name: 'jQuery',
           value: 'includeJQuery',
           checked: true
-        },
-        /*{
-          name: 'jQuery-Mobile',
-          value: 'includeJQuery-Mobile',
+        }, {
+          name: 'jQueryMobile',
+          value: 'includeJQueryMobile',
           checked: false
-        },*/ {
+        }, {
           name: 'Angular JS',
           value: 'includeAngular',
           checked: false
@@ -64,7 +63,7 @@ var MobileGenerator = yeoman.generators.Base.extend({
 
       this.bootstrap = includedBowerFeature("includeBootstrap");
       this.jQuery = includedBowerFeature("includeJQuery");
-      //this.jQueryMobile = includedBowerFeature("includeJQuery-Mobile");
+      this.jQueryMobile = includedBowerFeature("includeJQueryMobile");
       this.angular = includedBowerFeature("includeAngular");
       this.parallax = includedBowerFeature("includeParallax");
 
@@ -85,7 +84,16 @@ var MobileGenerator = yeoman.generators.Base.extend({
     this.template('_config.json', 'config.json');
     this.template('_package.json', 'package.json');
     this.template('base.scss', 'app/css/base.scss');
+    this.template('base.css', 'app/css/base.css');
     this.template('app.js', 'app/scripts/app.js');
+
+    this.copy('img/ebene-1.png', 'app/images/ebene-1.png');
+    this.copy('img/ebene-2.png', 'app/images/ebene-2.png');
+    this.copy('img/ebene-3.png', 'app/images/ebene-3.png');
+    this.copy('img/ebene-4.png', 'app/images/ebene-4.png');
+    this.copy('img/ebene-5.png', 'app/images/ebene-5.png');
+    this.copy('img/ebene-6.png', 'app/images/ebene-6.png');
+    this.copy('img/ebene-7.png', 'app/images/ebene-7.png');
 
     this.copy('_package.json', 'package.json');
     this.copy('_bower.json', 'bower.json');
